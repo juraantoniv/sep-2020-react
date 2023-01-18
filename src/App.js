@@ -1,12 +1,12 @@
 
 import './App.css';
-import {Characters} from "./components/Characters/characters";
+import {Users} from "./components/Users/Users";
 
 
 function App() {
   return (
     <div className="App">
-    <Characters/>
+    <Users/>
     </div>
   );
 }
