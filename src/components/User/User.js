@@ -1,4 +1,4 @@
-export default function User ({user,setPostsID}){
+export default function User ({user,setPostsID,setPostsID1}){
     const {id, name, email} = user;
 
     return (
@@ -7,6 +7,7 @@ export default function User ({user,setPostsID}){
             <div>name:{name}</div>
             <div>email:{email}</div>
             <button onClick={() => setPostsID(id)}>getUser_Post</button>
+            <button onClick={() => setPostsID1(id)}>getUser_Comments</button>
         </div>
     );
 };
